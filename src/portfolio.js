@@ -1,7 +1,8 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://luismosca.github.io/portfolio',
-  title: 'LEM',
+  homepage: 'https://github.com/luismosca/luismoca-portfolio',
+  // homepage: 'https://luismosca.github.io/portfolio'
+  title: 'LEM - PortFolio',
 }
 
 const about = {
@@ -10,9 +11,9 @@ const about = {
   image: '../src/components/Images/Foto_cara_mia.jpg',
   role: 'Full Stack Developer',
   description:
-    'Soy Licenciado en Sistemas y FullStack Developer, me dedico a la administración de Sistemas, Soporte Técnico y al desarrolo Web..',
+    'I have a degree in Systems and FullStack Developer, I am dedicated to Systems administration, Technical Support and Web development.',
   description2:
-    'Con conocimientos en Desarrollo Full Stack Developer. Con Experiencia en Desarrollo WEB: Ej. diseñando soluciones con bases de datos Postgress, SQL y generando proyectos que me permitieron desarrollar habilidades utilizando mis Skills .',
+    'With knowledge in Full Stack Developer Development. With experience in WEB Development: For example, designing solutions with Postgress and SQL databases and generating projects that allowed me to develop skills using my Skills.',
   resume: 'https://cvluismosca.tiiny.site/',
   social: {
     linkedin: 'https://linkedin.com/in/luis-moscarelli-b5664143',
@@ -29,8 +30,8 @@ const projects = [
       'Proyecto Individual de Henry acerca de las diferentes razas de Perros con sus caracterristicas principales de Peso, Temperamento y Vida',
     stack: [
       'Javascript, Node, React, Redux, Sequelize, Express, PostgresSQL',
-      'TypeScript',
-      'React',
+      'Responsive',
+      'Deployed',
     ],
     sourceCode: 'https://github.com/luismosca/PI-Dogs',
     livePreview: 'https://github.com/luismosca/PI-Dogs',
@@ -41,19 +42,19 @@ const projects = [
       'Pagina Web para reposrtar personas desaparecidas y poder registrar sus carecteristicas y posbles avistajes',
     stack: [
       'Javascript, Node, React, Redux, Sequelize, Express, PostgresSQL',
-      'TypeScript',
-      'React',
+      'Responsive',
+      'Deployed',
     ],
-    sourceCode: 'https://github.com/luismosca/portfolio',
-    livePreview: 'https://github.com/luismosca/portfolio',
+    sourceCode: 'https://github.com/luismosca/PF-B_R-FrontEnd',
+    livePreview: 'https://pf-b-r-front-end.vercel.app/',
   },
   {
     name: 'Project 3: OpenBootCamp',
     description: 'Proyecto ejemplodel curso de Open BootCamp de javaScript',
     stack: [
       'Javascript, Node, React, Redux, Sequelize, Express, PostgresSQL',
-      'TypeScript',
-      'React',
+      'Responsive',
+      'Deployed',
     ],
     sourceCode: 'https://github.com/luismosca/OB-ProyectoFinal',
     livePreview: 'https://github.com/luismosca/OB-ProyectoFinal',
@@ -74,6 +75,13 @@ const skills = [
   'Express',
   'Sequelize',
   'PostgressSQL',
+  'NodeJS',
+  'Bootstrap',
+  'Firebase',
+  'PHP',
+  'Python',
+  'MongoDB',
+  'MySQL',
 ]
 
 const contact = {

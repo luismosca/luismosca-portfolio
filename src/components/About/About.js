@@ -5,7 +5,7 @@ import './About.css'
 import foto1 from '../../Images/foto1.jpg'
 
 const About = () => {
-  const { name, image, role, description, description2, resume, social } = about
+  const { name, role, description, description2, resume, social } = about
 
   return (
     <div className='about center'>
