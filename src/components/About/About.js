@@ -12,7 +12,7 @@ const About = () => {
       <img
         src={foto1}
         alt='profile_picture'
-        style={{ width: 150, borderRadius: 15 }}
+        style={{ width: 150, borderRadius: 150 }}
       />
       {name && (
         <h1 style={{ marginTop: 15 }}>
